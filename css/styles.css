@@ -887,7 +887,7 @@ padding: 72px 24px 24px 24px;
     width: 169px;
     height: 56px;
     margin-top: 24px;
-    transition: background-color r 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-send:hover,
 .button-send:focus {
@@ -911,7 +911,7 @@ padding: 72px 24px 24px 24px;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
     outline: transparent;
-    transition: border-color r 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment::placeholder {
@@ -954,6 +954,7 @@ padding: 72px 24px 24px 24px;
 }
 
 .checks {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -973,7 +974,7 @@ padding: 72px 24px 24px 24px;
     border: none;
     fill: var(--light-background);
 }
-.form-line.current1::after{
+.form-line.currents::after{
     content: "";
     position: absolute;
     width: 18px;
@@ -985,4 +986,10 @@ padding: 72px 24px 24px 24px;
     top: 50%;
     transform: translateX(-50%);
 transform: rotate(90deg);
+}
+.form-input .comments{
+    margin-bottom: 16px;
+}
+.form-input .checked{
+    margin-bottom: 24px;
 }
