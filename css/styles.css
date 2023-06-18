@@ -894,7 +894,9 @@ padding: 72px 24px 24px 24px;
     background-color: var(--focus-button);
 }
 
-
+.comments{
+    margin-bottom: 16px;
+}
 .comment {
     width: 100%;
     height: 120px;
@@ -949,7 +951,7 @@ padding: 72px 24px 24px 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
+    
     align-items: center;
 }
 
@@ -960,7 +962,6 @@ padding: 72px 24px 24px 24px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -991,5 +992,8 @@ transform: rotate(90deg);
     margin-bottom: 16px;
 }
 .form-input .checked{
+    margin-bottom: 24px;
+}
+.check-p{
     margin-bottom: 24px;
 }
